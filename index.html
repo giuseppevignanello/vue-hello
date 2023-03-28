@@ -17,8 +17,8 @@
 
 
     <div id="app"> 
-        <h1>{{title}}</h1>
-        <img :src="image" alt="">
+        <h1 :class ="{'bg-primary text-center text-white py-3': isMainTitle, }">{{title}}</h1>
+        <img :src="image" alt="" > 
     </div>
 
 
